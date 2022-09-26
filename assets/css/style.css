@@ -1490,3 +1490,11 @@ section {
 #footer .credits a:hover {
   color: #f1f7ff;
 }
+
+.title-header{
+  font-size: 45x;
+  color: #283d50;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+}
