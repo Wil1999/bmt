@@ -343,10 +343,12 @@ h6 {
 #hero {
   width: 100%;
   position: relative;
-  background: url("../img/hero-bg.png") center bottom no-repeat;
+  background: url("../img/fondo1.jpg") center top no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
+
+
 
 @media (max-width: 991px) {
   #hero {
@@ -361,7 +363,7 @@ h6 {
 }
 
 #hero .hero-img {
-  width: 50%;
+  width: 80%;
   float: right;
 }
 
@@ -424,6 +426,7 @@ h6 {
   transition: 0.5s;
   margin: 0 20px 20px 0;
   color: #fff;
+  
 }
 
 #hero .hero-info .btn-get-started {
@@ -483,7 +486,10 @@ section {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #ecf5ff;
+  background-color: #f1f7ff;
+}
+.section-bg-services {
+  background: url("../img/cv.png") center bottom no-repeat;
 }
 
 /*--------------------------------------------------------------
@@ -640,7 +646,7 @@ section {
 --------------------------------*/
 #services {
   padding: 60px 0 40px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); */
 }
 
 #services .box {
@@ -1497,4 +1503,33 @@ section {
   text-align: center;
   font-weight: 500;
   position: relative;
+}
+
+.back-image{
+  background-color: #003166;
+  width: 550px;
+  height: 500px;
+  position: absolute;
+  top:-50px;
+  right: -200px;
+  z-index: -1;
+}
+
+.back-image-mision{
+  background-color: #003166;
+  width: 550px;
+  height: 500px;
+  position: absolute;
+  top:-40px;
+  left:-200px;
+  z-index: -1;
+}
+.back-image-vision{
+  background-color: #003166;
+  width: 550px;
+  height: 500px;
+  position: absolute;
+  top:-40px;
+  right: -200px;
+  z-index: -1;
 }
