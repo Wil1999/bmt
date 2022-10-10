@@ -25,6 +25,10 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Adding Vue js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="assets/js/courses.js"></script>
 </head>
 
 <body>
@@ -483,7 +487,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">PMP</a></h4>
+                <h4><a v-bind:href="portfolio-details.html" v-on:click="data_pmp">PMP</a></h4>
                 <p>Certificación</p>
                 <div>
                   <!-- <a href="assets/img/portfolio/web1.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Curso de preparación para certificacion PMP"><i class="bi bi-plus"></i></a> -->
